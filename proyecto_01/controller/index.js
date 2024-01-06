@@ -1,3 +1,4 @@
 module.exports = {
-    HomeController: require('./home.contoller.js')
+    HomeController: require('./home.contoller.js'),
+    QuotesController: require('./quotes.controller.js')
 }
