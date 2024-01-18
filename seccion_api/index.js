@@ -6,6 +6,6 @@ const mongoose = require("mongoose");
 //mongoose.set("useCreateIndex", true);
 
 mongoose
-  .connect(MONGO_URI, { useNewUrlParser: true})
+  .connect(MONGO_URI)
   .then(() => server.start())
   .catch(console.log);
