@@ -1,4 +1,5 @@
 module.exports = {
     NotFound: require('./not-found.js'),
-    errorM: require('./error.js') 
+    errorM: require('./error.js'),
+    auth: require('./auth.js')
 }

@@ -10,6 +10,7 @@ module.exports = function ({
   CommentRoutes,
   UserRoutes,
   ideaRoutes,
+  AuthRoutes
 }) {
   const router = express.Router();
   const apiRoutes = express.Router();
@@ -20,6 +21,8 @@ module.exports = function ({
   apiRoutes.use("/user", UserRoutes);
   apiRoutes.use("/idea", ideaRoutes);
   apiRoutes.use("/comment", CommentRoutes);
+  apiRoutes.use("/auth", AuthRoutes);
+
 
   router.use("/v1/api", apiRoutes);
 
