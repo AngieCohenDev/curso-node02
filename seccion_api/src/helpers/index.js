@@ -1,3 +1,4 @@
 module.exports = {
-    jwt : require('./jwt')
+    jwt : require('./jwt'),
+    CACHE_TIME: require('./cache-time')
 }
